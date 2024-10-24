@@ -10,7 +10,7 @@
 
 # Simulate decryption for ND versions
 TW_SIMULATE_DECRYPT := true
-TW_DEVICE_VERSION := eqe_g
+TW_DEVICE_VERSION := eqe_shrp
 
 # Device codename
 # Default (if not set): N/A
