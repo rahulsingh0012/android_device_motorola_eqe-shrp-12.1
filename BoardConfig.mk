@@ -24,6 +24,8 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
+DEVICE_PATH := device/motorola/eqe
+
 # Inherit from common
 -include $(DEVICE_PATH)/BoardConfigSHRP.mk
 
