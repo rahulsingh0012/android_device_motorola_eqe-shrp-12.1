@@ -139,9 +139,9 @@ SOONG_CONFIG_NAMESPACES += ufsbsg
 SOONG_CONFIG_ufsbsg += ufsframework
 SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
-# OEM otacerts
+# OEM otacert
 PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/otacert
+    $(LOCAL_PATH)/security/ota
 
 # Enable Fuse Passthrough
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.fuse.passthrough.enable=true
