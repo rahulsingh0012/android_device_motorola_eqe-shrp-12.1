@@ -8,7 +8,7 @@
 # MANDATORY FLAGS # These flags HAVE TO be set/changed by you! #
 ################### ############################################
 
-# Simulate decryption for ND versions
+# Simulate decryption for SHRP versions
 TW_SIMULATE_DECRYPT := true
 TW_DEVICE_VERSION := eqe_shrp
 
